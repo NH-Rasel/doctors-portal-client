@@ -37,7 +37,7 @@ function Dashboard(props) {
         <div>
             <Toolbar />
             <Divider />
-            <Link style={{ textDecoration: 'none', color: 'white' }} to="/appointment"><Button color="inherit">Appointment</Button></Link>
+            <Link style={{ textDecoration: 'none' }} to="/appointment"><Button color="inherit">Appointment</Button></Link>
             <List>
                 {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
                     <ListItem button key={text}>
